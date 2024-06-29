@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("12w12   erwerw")
-	fmt.Print("12w12   erwerw")
+	name := "german"
+	fmt.Println(name, "", len(name))
 
-	var a string
-	fmt.Scan(&a)
+	var consoleRead string
+	fmt.Println("Waititng you...")
+	fmt.Scan(&consoleRead)
+	fmt.Println(consoleRead)
 }
